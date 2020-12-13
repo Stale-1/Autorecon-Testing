@@ -17,8 +17,8 @@ do
   echo -e "Enter your response \c"
   read answer
   case "$answer" in
-    1) /root/./port.sh ;;
-    2) /root/./timer.sh ;;
+    1) /root/stale/./port.sh ;;
+    2) /root/stale/./timer.sh ;;
     0) exit ;;
   esac
 done
