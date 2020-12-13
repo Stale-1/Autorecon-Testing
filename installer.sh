@@ -1,6 +1,8 @@
 #!/bin/bash
 
 echo "Downloading necessary files"
+apt update
+apt install psmisc
 mkdir /root/stale
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/.stale.sh -O /root/.stale.sh && chmod +x .stale.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/.bash_aliases -O /root/.bash_aliases
