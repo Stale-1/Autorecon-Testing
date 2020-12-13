@@ -19,13 +19,13 @@ do
   echo -e "Enter your preferred interval \c"
   read -r answer
   case "$answer" in
-    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/30 -O /root/stale/.sleep.sh && exit ;;
-    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/35 -O /root/stale/.sleep.sh && exit ;;
-    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/40 -O /root/stale/.sleep.sh && exit ;;
-    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/45 -O /root/stale/.sleep.sh && exit ;;
-    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/50 -O /root/stale/.sleep.sh && exit ;;
-    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/55 -O /root/stale/.sleep.sh && exit ;;
-    7) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/60 -O /root/stale/.sleep.sh && exit ;;
-    0) exit ;;
+    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/30 -O /root/stale/.sleep.sh && exit && 0 ;;
+    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/35 -O /root/stale/.sleep.sh && exit && 0 ;;
+    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/40 -O /root/stale/.sleep.sh && exit && 0 ;;
+    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/45 -O /root/stale/.sleep.sh && exit && 0 ;;
+    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/50 -O /root/stale/.sleep.sh && exit && 0 ;;
+    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/55 -O /root/stale/.sleep.sh && exit && 0 ;;
+    7) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/60 -O /root/stale/.sleep.sh && exit && 0 ;;
+    0) exit && 0 ;;
   esac
 done
