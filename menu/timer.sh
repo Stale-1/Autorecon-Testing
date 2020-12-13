@@ -20,13 +20,13 @@ do
   echo -e "Enter your preferred interval \c"
   read -r answer
   case "$answer" in
-    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/30 -O /root/stale/.sleep.sh && exit && 0 ;;
-    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/35 -O /root/stale/.sleep.sh && exit && 0 ;;
-    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/40 -O /root/stale/.sleep.sh && exit && 0 ;;
-    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/45 -O /root/stale/.sleep.sh && exit && 0 ;;
-    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/50 -O /root/stale/.sleep.sh && exit && 0 ;;
-    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/55 -O /root/stale/.sleep.sh && exit && 0 ;;
-    7) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/60 -O /root/stale/.sleep.sh && exit && 0 ;;
-    0) exit && 0 ;;
+    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/30 -O /root/stale/.sleep.sh && exit && clear ;;
+    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/35 -O /root/stale/.sleep.sh && exit && clear ;;
+    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/40 -O /root/stale/.sleep.sh && exit && clear ;;
+    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/45 -O /root/stale/.sleep.sh && exit && clear ;;
+    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/50 -O /root/stale/.sleep.sh && exit && clear ;;
+    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/55 -O /root/stale/.sleep.sh && exit && clear ;;
+    7) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/60 -O /root/stale/.sleep.sh && exit && clear ;;
+    0) exit && clear ;;
   esac
 done
