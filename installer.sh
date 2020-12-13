@@ -20,6 +20,7 @@ cd /root/stale && chmod +x port.sh
 cd /root/stale && chmod +x .sleep.sh
 cd /root/stale && chmod +x .kill.sh
 cd /root/stale && chmod +x .merge.sh
+wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/banner.sh -O /etc/profile.d/script.sh
 rm installer.sh
 echo "Tasks Finished!!!"
 echo ""
