@@ -1,4 +1,4 @@
 #!/bin/bash
-function lov_stale() {
+function love_stale() {
   /root/stale/./stale.sh
 }
