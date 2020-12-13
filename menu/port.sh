@@ -25,6 +25,6 @@ do
     4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/443 -O /root/stale/.kill.sh && exit && clear ;;
     5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/550 -O /root/stale/.kill.sh && exit && clear ;;
     6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/555 -O /root/stale/.kill.sh && exit && clear ;;
-    0) exit && 0 ;;
+    0) exit && clear ;;
   esac
 done
