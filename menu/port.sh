@@ -18,12 +18,12 @@ do
   echo -e "Enter your current dropbear port \c"
   read -r answer
   case "$answer" in
-    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/80 -O /root/stale/.kill.sh && exit ;;
-    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/143 -O /root/stale/.kill.sh && exit ;;
-    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/442 -O /root/stale/.kill.sh && exit ;;
-    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/443 -O /root/stale/.kill.sh && exit ;;
-    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/550 -O /root/stale/.kill.sh && exit ;;
-    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/555 -O /root/stale/.kill.sh && exit ;;
-    0) exit ;;
+    1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/80 -O /root/stale/.kill.sh && exit && 0 ;;
+    2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/143 -O /root/stale/.kill.sh && exit && 0 ;;
+    3) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/442 -O /root/stale/.kill.sh && exit && 0 ;;
+    4) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/443 -O /root/stale/.kill.sh && exit && 0 ;;
+    5) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/550 -O /root/stale/.kill.sh && exit && 0 ;;
+    6) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/555 -O /root/stale/.kill.sh && exit && 0 ;;
+    0) exit && 0 ;;
   esac
 done
