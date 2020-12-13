@@ -24,4 +24,4 @@ cd /root
 echo "Tasks Finished!!!"
 echo ""
 echo "To configure the Autorecon"
-echo "type "stale" then enter"
+echo "type "love_stale" then enter"
