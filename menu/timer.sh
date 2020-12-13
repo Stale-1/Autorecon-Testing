@@ -8,16 +8,16 @@ do
   echo ""
   echo "How many seconds before reconnection?"
   echo ""
-  echo "1) Every 30 seconds
-  echo "2) Every 35 seconds
-  echo "3) Every 40 seconds
-  echo "4) Every 45 seconds
-  echo "5) Every 50 seconds
-  echo "6) Every 55 seconds
-  echo "7) Every 60 seconds
-  echo "0) Exit
+  echo "1) Every 30 seconds"
+  echo "2) Every 35 seconds"
+  echo "3) Every 40 seconds"
+  echo "4) Every 45 seconds"
+  echo "5) Every 50 seconds"
+  echo "6) Every 55 seconds"
+  echo "7) Every 60 seconds"
+  echo "0) Exit"
   echo -e "Enter your preferred interval \c"
-  read answer
+  read -r answer
   case "$answer" in
     1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/30 -O /root/stale/.sleep.sh && exit ;;
     2) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer/35 -O /root/stale/.sleep.sh && exit ;;
