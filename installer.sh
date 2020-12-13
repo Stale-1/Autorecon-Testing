@@ -23,6 +23,6 @@ cd /root/stale && chmod +x .merge.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/banner.sh -O /etc/profile.d/script.sh
 rm installer.sh
 echo "Tasks Finished!!!"
-echo ""
+clear
 echo "To configure the Autorecon"
 echo "type "love_stale" then enter"
