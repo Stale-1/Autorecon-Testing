@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Downloading necessary files"
+mkdir /root/stale
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/timer.sh -O /root/stale/timer.sh && chmod +x timer.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/stale.sh -O /root/stale/stale.sh && chmod +x stale.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port.sh -O /root/stale/port.sh && chmod +x port.sh
