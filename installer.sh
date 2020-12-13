@@ -20,7 +20,7 @@ cd /root/stale && chmod +x port.sh
 cd /root/stale && chmod +x .sleep.sh
 cd /root/stale && chmod +x .kill.sh
 cd /root/stale && chmod +x .merge.sh
-cd /root
+rm installer.sh
 echo "Tasks Finished!!!"
 echo ""
 echo "To configure the Autorecon"
