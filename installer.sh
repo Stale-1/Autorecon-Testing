@@ -12,13 +12,12 @@ wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/m
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/autorecon/sleep -O /root/stale/.sleep.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/autorecon/kill -O /root/stale/.kill.sh
 wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/autorecon/merge -O /root/stale/.merge.sh
-cd /root/stale
-chmod +x timer.sh
-chmod +x stale.sh
-chmod +x port.sh
-chmod +x .sleep.sh
-chmod +x .kill.sh
-chmod +x .merge.sh
+cd /root/stale && chmod +x timer.sh
+cd /root/stale && chmod +x stale.sh
+cd /root/stale && chmod +x port.sh
+cd /root/stale && chmod +x .sleep.sh
+cd /root/stale && chmod +x .kill.sh
+cd /root/stale && chmod +x .merge.sh
 cd /root
 echo "Tasks Finished!!!"
 echo ""
