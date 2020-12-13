@@ -15,7 +15,7 @@ do
   echo "5) 550"
   echo "6) 555"
   echo "0) Exit
-  echo -e "Enter your preferred interval(1-60) \c"
+  echo -e "Enter your current dropbear port \c"
   read answer
   case "$answer" in
     1) wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/menu/port/80 -O /root/stale/.kill.sh && exit ;;
