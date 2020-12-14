@@ -24,5 +24,10 @@ wget https://raw.githubusercontent.com/Stale-1/Auto-Reconnect-of-Dropbear/main/b
 rm installer.sh
 echo "Tasks Finished!!!"
 clear
-echo "To configure the Autorecon"
-echo "type "love_stale" then enter"
+echo "Rebooting in 3"
+sleep 1
+echo "Rebooting in 2"
+sleep 1
+echo "Rebooting in 1"
+sleep 1
+reboot
