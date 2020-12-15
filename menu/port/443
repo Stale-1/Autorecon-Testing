@@ -1,3 +1,0 @@
-#!/bin/bash
-
-fuser -k 443/tcp && /etc/init.d/dropbear restart
