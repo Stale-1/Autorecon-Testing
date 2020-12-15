@@ -59,10 +59,5 @@ clear
 echo "[###############]"
 echo "Tasks Finished!!!"
 clear
-echo "Rebooting in 3"
-sleep 1
-echo "Rebooting in 2"
-sleep 1
-echo "Rebooting in 1"
-sleep 1
-reboot
+echo "Autorecon Manager Successfully Installed"
+echo "Please Reboot Your Machine"
