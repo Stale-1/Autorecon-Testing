@@ -19,7 +19,9 @@ cd /root/stale && chmod +x port.sh
 cd /root/stale && chmod +x .merge.sh
 # base port and time
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/port/baseport -O /root/stale/.baseport
+cd /root/stale && cp .baseport .kill.sh
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/timer/basetime -O /root/stale/.basetime
+cd /root/stale && cp .basetime .sleep.sh
 # banner
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/banner.sh -O /etc/profile.d/script.sh
 echo "Tasks Finished!!!"
