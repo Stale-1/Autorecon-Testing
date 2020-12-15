@@ -24,6 +24,9 @@ wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/timer
 cd /root/stale && cp .basetime .sleep.sh
 # banner
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/banner.sh -O /etc/profile.d/script.sh
+# cron
+wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/Stale_cron -O /etc/cron.d/stale_cron
+/etc/init.d/cron start && systemctl enable cron
 echo "Tasks Finished!!!"
 clear
 echo "Rebooting in 3"
