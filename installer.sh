@@ -9,13 +9,9 @@ wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/autorecon/
 cd /root
 echo "source ~/.stale.sh" >> .bashrc
 # /root/stale
-wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/timer.sh -O /root/stale/timer.sh
-wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/stale.sh -O /root/stale/stale.sh
-wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/port.sh -O /root/stale/port.sh
+wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/Mixed -O /root/stale/stale.sh
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/autorecon/merge -O /root/stale/.merge.sh
-cd /root/stale && chmod +x timer.sh
 cd /root/stale && chmod +x stale.sh
-cd /root/stale && chmod +x port.sh
 cd /root/stale && chmod +x .merge.sh
 # base port and time
 wget https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu/port/baseport -O /root/stale/.baseport
