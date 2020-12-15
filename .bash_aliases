@@ -1,1 +1,0 @@
-source ~/.stale.sh
