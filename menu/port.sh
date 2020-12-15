@@ -7,7 +7,7 @@ clear
   echo ""
   echo "What is your current Dropbear port?"
   echo ""
-  echo "Enter your current dropbear port or x to exit"
+  echo -e "Enter your dropbear port or x to exit \c"
   read -r n
   case $n in
     $n) cp /root/stale/.baseport /root/stale/.kill.sh
