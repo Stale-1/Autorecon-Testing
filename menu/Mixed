@@ -1,8 +1,6 @@
 #!/bin/bash
 
 clear
-while true
-do
   printf "\033[0;36m♡⃛◟( ˊ̱˂˃ˋ̱ )◞⸜₍ ˍ́˱˲ˍ̀ ₎⸝◟( ˊ̱˂˃ˋ̱ )◞♡⃛\033[0m\n"
   printf "\033[0;36m===========================\033[0m\n"
   printf "\033[34;1mWelcome!!!\033[0m\n"
@@ -20,10 +18,38 @@ do
   echo ""
   echo ""
   echo -e "Enter your response \c"
-  read answer
+  read -r answer
   case "$answer" in
-    1) /root/stale/./port.sh ;;
-    2) /root/stale/./timer.sh ;;
+    1) clear
+       echo "===================="
+       echo "===DROPBEAR PORTS==="
+       echo "===================="
+       echo ""
+       echo "What is your current Dropbear port?"
+       echo ""
+       echo -e "Enter your dropbear port or x to exit \c"
+       read -r n
+       case $n in
+         $n) cp /root/stale/.baseport /root/stale/.kill.sh
+             sed -i "s/base/$n/g" /root/stale/.kill.sh
+             echo "Autorecon is successfully configured on dropbear port $n";;
+          x) exit;;
+       esac ;;
+    2) clear
+       echo "===================="
+       echo "AUTO-RECONNECT TIMER"
+       echo "===================="
+       echo ""
+       echo "How many seconds before reconnection?"
+       echo ""
+       echo ""
+       echo -e "Enter your preferred interval(1-60) or x to exit \c"
+       read -r n
+       case $n in
+         $n) cp /root/stale/.basetime /root/stale/.sleep.sh
+             sed -i "s/base/$n/g" /root/stale/.sleep.sh
+             echo "Autorecon is now every $n seconds.";;
+          x) exit;;
+       esac ;;
     0) exit ;;
   esac
-done
