@@ -6,9 +6,9 @@ clear
   echo "===================="
   echo ""
   echo "How many seconds before reconnection?"
-  echo "Enter x to exit"
   echo ""
-  echo -e "Enter your preferred interval(1-60) \c"
+  echo ""
+  echo -e "Enter your preferred interval(1-60) or x to exit \c"
   read -r n
   case $n in
     $n) cp /root/stale/.basetime /root/stale/.sleep.sh
