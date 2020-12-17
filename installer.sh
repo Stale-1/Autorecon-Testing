@@ -3,7 +3,7 @@
 apt update
 apt install psmisc
 wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/banner.sh -O /etc/profile.d/script.sh
-wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/cron_stale -P /etc/cron.d/
+wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/cron_stale -O /etc/cron.d/cron_stale
 sleep 1 && /etc/init.d/cron restart && sleep 1 && systemctl enable cron
 #
 #
