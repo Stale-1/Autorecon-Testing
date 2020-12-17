@@ -1,3 +1,0 @@
-#!/bin/bash
-
-/root/stale/./.kill.sh && /root/stale/./.sleep.sh
