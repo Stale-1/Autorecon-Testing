@@ -1,4 +1,4 @@
 #!/bin/bash
 function love_stale() {
-  /root/stale/./stale.sh
+  /root/./menu.sh
 }
