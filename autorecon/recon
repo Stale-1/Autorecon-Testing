@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for (( ; ; ))
-do
-   /root/stale/./.merge.sh
-done
