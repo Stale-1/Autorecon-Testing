@@ -30,10 +30,10 @@ clear
        echo -e "Enter your dropbear port or x to exit \c"
        read -r n
        case $n in
-         $n) cp /root/stale/.baseport /root/stale/.kill.sh
-             sed -i "s/base/$n/g" /root/stale/.kill.sh
+         $n) cp /root/.port.sh /root/.kill.sh
+             sed -i "s/base/$n/g" /root/.kill.sh && cd /root && chmod +x .kill.sh && clear
              echo "Autorecon is successfully configured on dropbear port $n";;
-          x) exit;;
+          x) clear && exit;;
        esac ;;
     2) clear
        echo "===================="
@@ -46,10 +46,10 @@ clear
        echo -e "Enter your preferred interval(1-60) or x to exit \c"
        read -r n
        case $n in
-         $n) cp /root/stale/.basetime /root/stale/.sleep.sh
-             sed -i "s/base/$n/g" /root/stale/.sleep.sh
+         $n) cp /root/.time.sh /root/.sleep.sh
+             sed -i "s/base/$n/g" /root/.sleep.sh && cd /root && chmod +x .sleep.sh && clear
              echo "Autorecon is now every $n seconds.";;
-          x) exit;;
+          x) clear && exit;;
        esac ;;
     0) exit ;;
   esac
