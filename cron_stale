@@ -1,1 +1,1 @@
-@reboot	root	echo "cron is successfully working" > /root/yes
+@reboot	root	cd /root && ./autorecon.sh
