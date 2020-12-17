@@ -48,7 +48,8 @@ clear
        case $n in
          $n) cp /root/.time.sh /root/.sleep.sh
              sed -i "s/base/$n/g" /root/.sleep.sh && cd /root && chmod +x .sleep.sh && clear
-             echo "Autorecon is now every $n seconds.";;
+             echo "Autorecon is now every $n seconds."
+             echo "Reboot your Machine to start Autorecon";;
           x) clear && exit;;
        esac ;;
     0) exit ;;
