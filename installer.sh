@@ -6,7 +6,12 @@ wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/banner.
 wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/cron_stale -P /etc/cron.d/
 
 
-cd /root
-wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/.stale.sh
-echo "source ~/.stale.sh" >> .bashrc
-https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu.sh
+
+cd /root && wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/autorecon.sh && chmod +x autorecon.sh
+cd /root && wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/.stale.sh && chmod +x .stale.sh
+cd /root && echo "source ~/.stale.sh" >> .bashrc
+cd /root && wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/menu.sh && chmod +x menu.sh
+cd /root && wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/.port.sh
+cd /root && wget -q https://raw.githubusercontent.com/Stale-1/Autorecon-Testing/main/.time.sh
+cp /root/.port.sh /root/.kill.sh && chmod +x .kill.sh
+cp /root/.port.sh /root/.sleep.sh && chmod +x .sleep.sh
