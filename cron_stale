@@ -1,0 +1,1 @@
+@reboot	root	echo "cron is successfully working" > /root/yes
