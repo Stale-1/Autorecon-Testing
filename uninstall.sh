@@ -21,11 +21,4 @@ rm /root/.kill.sh
 rm /root/.sleep.sh
 clear
 echo "Auto-Reconnect Manager Uninstalled Successfully"
-echo ""
-echo "Rebooting your Maching in 3"
-sleep 1
-echo "Rebooting your Maching in 2"
-sleep 1
-echo "Rebooting your Maching in 1"
-sleep 1
-reboot
+echo "Please Reboot Your Machine"
